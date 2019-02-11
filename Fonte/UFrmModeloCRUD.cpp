@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "UFrmModeloCRUD.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TFrmModeloCRUD *FrmModeloCRUD;
+//---------------------------------------------------------------------------
+__fastcall TFrmModeloCRUD::TFrmModeloCRUD(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TFrmModeloCRUD::EvFecharFormularioOnClose(TObject *Sender, TCloseAction &Action)
+
+{
+    Action = caFree;
+}
+//---------------------------------------------------------------------------
