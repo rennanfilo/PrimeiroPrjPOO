@@ -5,7 +5,7 @@ object FrmModeloCRUD: TFrmModeloCRUD
   BorderStyle = bsSingle
   Caption = 'FrmModeloCRUD'
   ClientHeight = 405
-  ClientWidth = 526
+  ClientWidth = 457
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,73 +21,15 @@ object FrmModeloCRUD: TFrmModeloCRUD
   TextHeight = 19
   object TlbCRUD: TToolBar
     Left = 0
-    Top = 352
-    Width = 526
-    Height = 53
+    Top = 376
+    Width = 457
+    Height = 29
     Align = alBottom
-    ButtonHeight = 54
-    ButtonWidth = 55
     Caption = 'TlbCRUD'
-    DisabledImages = ilsDesabilitado
-    HotImages = ilsImagemQuente
-    Images = ilsHabilitado
     ParentShowHint = False
     ShowHint = True
     TabOrder = 0
     Wrapable = False
-    object ToolButton1: TToolButton
-      Left = 0
-      Top = 0
-      Caption = 'ToolButton1'
-      ImageIndex = 0
-    end
-    object ToolButton2: TToolButton
-      Left = 55
-      Top = 0
-      Caption = 'ToolButton2'
-      ImageIndex = 1
-    end
-    object ToolButton3: TToolButton
-      Left = 110
-      Top = 0
-      Caption = 'ToolButton3'
-      ImageIndex = 2
-    end
-    object ToolButton4: TToolButton
-      Left = 165
-      Top = 0
-      Width = 92
-      Caption = 'ToolButton4'
-      ImageIndex = 3
-      Style = tbsSeparator
-    end
-    object ToolButton5: TToolButton
-      Left = 257
-      Top = 0
-      Caption = 'ToolButton5'
-      ImageIndex = 3
-    end
-    object ToolButton6: TToolButton
-      Left = 312
-      Top = 0
-      Width = 41
-      Caption = 'ToolButton6'
-      ImageIndex = 4
-      Style = tbsSeparator
-    end
-    object ToolButton8: TToolButton
-      Left = 353
-      Top = 0
-      Width = 56
-      Caption = 'ToolButton8'
-      Style = tbsSeparator
-    end
-    object ToolButton9: TToolButton
-      Left = 409
-      Top = 0
-      Caption = 'ToolButton9'
-      ImageIndex = 4
-    end
   end
   object ilsHabilitado: TImageList
     Height = 48

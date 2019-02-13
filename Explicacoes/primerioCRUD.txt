@@ -1,0 +1,4 @@
+C	Insert	->	novo
+R	Select	->	Pesquisar
+U	Update	->	Gravar
+D	Deletar	->	Apagar

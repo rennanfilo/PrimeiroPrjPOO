@@ -20,5 +20,3 @@ void __fastcall TFrmModeloCRUD::EvFecharFormularioOnClose(TObject *Sender, TClos
     Action = caFree;
 }
 //---------------------------------------------------------------------------
-
-

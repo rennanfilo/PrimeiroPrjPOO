@@ -78,12 +78,12 @@ object FrmModeloCRUD: TFrmModeloCRUD
     object ToolButton8: TToolButton
       Left = 353
       Top = 0
-      Width = 56
+      Width = 63
       Caption = 'ToolButton8'
       Style = tbsSeparator
     end
     object ToolButton9: TToolButton
-      Left = 409
+      Left = 416
       Top = 0
       Caption = 'ToolButton9'
       ImageIndex = 4

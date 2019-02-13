@@ -1,32 +1,26 @@
 //---------------------------------------------------------------------------
 
-#ifndef UFrmPrincipalH
-#define UFrmPrincipalH
+#ifndef UFrmCadastroAlunoH
+#define UFrmCadastroAlunoH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
-#include <Vcl.Menus.hpp>
+#include "UFrmModeloCRUD.h"
+#include <System.ImageList.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ImgList.hpp>
+#include <Vcl.ToolWin.hpp>
 //---------------------------------------------------------------------------
-class TFrmPrincipal : public TForm
+class TFrmCadastroAluno : public TFrmModeloCRUD
 {
 __published:	// IDE-managed Components
-	TMainMenu *mnmPrincipal;
-	TMenuItem *caeved;
-	TMenuItem *Aluno1;
-	TMenuItem *Professor1;
-	TMenuItem *Diciplina1;
-	TMenuItem *Curso1;
-	TMenuItem *N1;
-	TMenuItem *Sair1;
-	void __fastcall EvEncerrarOnClick(TObject *Sender);
-	void __fastcall EvAtivarOnClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TFrmPrincipal(TComponent* Owner);
+	__fastcall TFrmCadastroAluno(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TFrmPrincipal *FrmPrincipal;
+extern PACKAGE TFrmCadastroAluno *FrmCadastroAluno;
 //---------------------------------------------------------------------------
 #endif

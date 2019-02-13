@@ -23,7 +23,6 @@ object FrmPrincipal: TFrmPrincipal
       Caption = 'Cadastro'
       object Aluno1: TMenuItem
         Caption = 'Aluno...'
-        OnClick = EvAtivarOnClick
       end
       object Professor1: TMenuItem
         Caption = 'Professor...'
