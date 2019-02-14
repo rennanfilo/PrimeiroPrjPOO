@@ -16,7 +16,6 @@
 class TFrmCadastroAluno : public TFrmModeloCRUD
 {
 __published:	// IDE-managed Components
-	void __fastcall EvSairOnClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TFrmCadastroAluno(TComponent* Owner);

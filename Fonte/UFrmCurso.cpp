@@ -3,21 +3,15 @@
 #include <vcl.h>
 #pragma hdrstop
 
-#include "UFrmCadastroAluno.h"
+#include "UFrmCurso.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma link "UFrmModeloCRUD"
 #pragma resource "*.dfm"
-TFrmCadastroAluno *FrmCadastroAluno;
+TFrmCurso *FrmCurso;
 //---------------------------------------------------------------------------
-__fastcall TFrmCadastroAluno::TFrmCadastroAluno(TComponent* Owner)
+__fastcall TFrmCurso::TFrmCurso(TComponent* Owner)
 	: TFrmModeloCRUD(Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TFrmCadastroAluno::EvSairOnClick(TObject *Sender)
-{
-    Close();
-}
-//---------------------------------------------------------------------------
-

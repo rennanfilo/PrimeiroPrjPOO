@@ -31,11 +31,10 @@ object FrmPrincipal: TFrmPrincipal
       end
       object Diciplina1: TMenuItem
         Caption = 'Diciplina...'
-        OnClick = EvAtivarDisciplinaOnClick
+        OnClick = _EvAtivarDisciplinaOnClick
       end
       object Curso1: TMenuItem
         Caption = 'Curso...'
-        OnClick = Curso1Click
       end
       object N1: TMenuItem
         Caption = '-'

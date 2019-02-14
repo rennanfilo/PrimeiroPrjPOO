@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
 
-#ifndef UFrmCadastroAlunoH
-#define UFrmCadastroAlunoH
+#ifndef UFrmCadastroProfessorH
+#define UFrmCadastroProfessorH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
@@ -13,15 +13,14 @@
 #include <Vcl.ImgList.hpp>
 #include <Vcl.ToolWin.hpp>
 //---------------------------------------------------------------------------
-class TFrmCadastroAluno : public TFrmModeloCRUD
+class TFrmCadastroProfessor : public TFrmModeloCRUD
 {
 __published:	// IDE-managed Components
-	void __fastcall EvSairOnClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TFrmCadastroAluno(TComponent* Owner);
+	__fastcall TFrmCadastroProfessor(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TFrmCadastroAluno *FrmCadastroAluno;
+extern PACKAGE TFrmCadastroProfessor *FrmCadastroProfessor;
 //---------------------------------------------------------------------------
 #endif

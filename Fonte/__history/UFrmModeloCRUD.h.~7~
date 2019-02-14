@@ -24,13 +24,12 @@ __published:	// IDE-managed Components
 	TToolButton *btnAtualizar;
 	TToolButton *ToolButton4;
 	TToolButton *btnDeletar;
+	TToolButton *ToolButton8;
 	TToolButton *ToolButton6;
 	TToolButton *btnCancelar;
 	TToolButton *ToolButton9;
 	TToolButton *btnSair;
-	TGroupBox *grpDados;
 	void __fastcall EvFecharFormularioOnClose(TObject *Sender, TCloseAction &Action);
-	void __fastcall EvSairOnClick(TObject *Sender);
 
 private:	// User declarations
 public:		// User declarations

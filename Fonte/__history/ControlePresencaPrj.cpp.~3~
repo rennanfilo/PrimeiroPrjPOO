@@ -7,9 +7,6 @@
 USEFORM("UFrmPrincipal.cpp", FrmPrincipal);
 USEFORM("UFrmModeloCRUD.cpp", FrmModeloCRUD);
 USEFORM("UFrmCadastroAluno.cpp", FrmCadastroAluno);
-USEFORM("UFrmCadastroProfessor.cpp", FrmCadastroProfessor);
-USEFORM("UFrmDisciplina.cpp", FrmDisciplina);
-USEFORM("UFrmCurso.cpp", FrmCurso);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {

@@ -22,9 +22,6 @@ __published:	// IDE-managed Components
 	TMenuItem *Sair1;
 	void __fastcall EvEncerrarOnClick(TObject *Sender);
 	void __fastcall EvAtivarOnClick(TObject *Sender);
-	void __fastcall EvAtivarCadastroProfOnClick(TObject *Sender);
-	void __fastcall EvAtivarDisciplinaOnClick(TObject *Sender);
-	void __fastcall Curso1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TFrmPrincipal(TComponent* Owner);

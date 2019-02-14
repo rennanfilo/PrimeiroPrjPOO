@@ -22,3 +22,11 @@ void __fastcall TFrmModeloCRUD::EvFecharFormularioOnClose(TObject *Sender, TClos
 //---------------------------------------------------------------------------
 
 
+
+
+void __fastcall TFrmModeloCRUD::EvSairOnClick(TObject *Sender)
+{
+    Close();
+}
+//---------------------------------------------------------------------------
+

@@ -15,9 +15,3 @@ __fastcall TFrmCadastroAluno::TFrmCadastroAluno(TComponent* Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TFrmCadastroAluno::EvSairOnClick(TObject *Sender)
-{
-    Close();
-}
-//---------------------------------------------------------------------------
-

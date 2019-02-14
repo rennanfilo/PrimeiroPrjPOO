@@ -58,7 +58,7 @@
         <Icon_MainIcon>$(BDS)\bin\cbuilder_PROJECTICON.ico</Icon_MainIcon>
         <UWP_CppLogo44>$(BDS)\bin\Artwork\Windows\UWP\cppreg_UwpDefault_44.png</UWP_CppLogo44>
         <UWP_CppLogo150>$(BDS)\bin\Artwork\Windows\UWP\cppreg_UwpDefault_150.png</UWP_CppLogo150>
-        <BPILibOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\Pedrao\Executavel\</BPILibOutputDir>
+        <BPILibOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\PrjZero\Executavel\</BPILibOutputDir>
         <VerInfo_Locale>1046</VerInfo_Locale>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <SanitizedProjectName>ControlePresencaPrj</SanitizedProjectName>
@@ -69,10 +69,12 @@
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
         <BCC_PCHName_Clang>ControlePresencaPCH.h</BCC_PCHName_Clang>
+        <BPILibOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\PrjZero\Executavel\</BPILibOutputDir>
+        <FinalOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\PrjZero\Executavel\</FinalOutputDir>
+        <IntermediateOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\PrjZero\Objeto\</IntermediateOutputDir>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1)'!=''">
         <BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
@@ -95,6 +97,7 @@
         <CLANG_UnwindTables>true</CLANG_UnwindTables>
         <ILINK_LibraryPath>$(BDSLIB)\$(PLATFORM)\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
         <ILINK_TranslatedLibraryPath>$(BDSLIB)\$(PLATFORM)\debug\$(LANGDIR);$(ILINK_TranslatedLibraryPath)</ILINK_TranslatedLibraryPath>
+        <BPILibOutputDir>A:\Hi\Codigos\Facul\QuintoTermo\PrjZero\Executavel\</BPILibOutputDir>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
@@ -128,6 +131,24 @@
             <DependentOn>UFrmCadastroAluno.h</DependentOn>
             <BuildOrder>4</BuildOrder>
         </CppCompile>
+        <CppCompile Include="UFrmCadastroProfessor.cpp">
+            <Form>FrmCadastroProfessor</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UFrmCadastroProfessor.h</DependentOn>
+            <BuildOrder>5</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="UFrmCurso.cpp">
+            <Form>FrmCurso</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UFrmCurso.h</DependentOn>
+            <BuildOrder>7</BuildOrder>
+        </CppCompile>
+        <CppCompile Include="UFrmDisciplina.cpp">
+            <Form>FrmDisciplina</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>UFrmDisciplina.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
         <CppCompile Include="UFrmModeloCRUD.cpp">
             <Form>FrmModeloCRUD</Form>
             <FormType>dfm</FormType>
@@ -143,6 +164,9 @@
         <FormResources Include="UFrmPrincipal.dfm"/>
         <FormResources Include="UFrmModeloCRUD.dfm"/>
         <FormResources Include="UFrmCadastroAluno.dfm"/>
+        <FormResources Include="UFrmCadastroProfessor.dfm"/>
+        <FormResources Include="UFrmDisciplina.dfm"/>
+        <FormResources Include="UFrmCurso.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -220,13 +244,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\ControlePresencaPrj.tds" Configuration="Debug" Class="DebugSymbols">
+                <DeployFile LocalName="..\Executavel\ControlePresencaPrj.tds" Configuration="Debug" Class="DebugSymbols">
                     <Platform Name="Win32">
                         <RemoteName>ControlePresencaPrj.tds</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName=".\Win32\Debug\ControlePresencaPrj.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="..\Executavel\ControlePresencaPrj.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>ControlePresencaPrj.exe</RemoteName>
                         <Overwrite>true</Overwrite>
